@@ -66,6 +66,18 @@ public static void main(String[] args) {
         return colore;
   
     }
+    public void setModello(String modello) {
+        this.modello= modello;
+    }
+
+    public void setAnno(int anno) {
+        this.anno= anno;
+    }
+
+    public void setColore(String colore) {
+        this.colore= colore;
+  
+    }
 
 
   

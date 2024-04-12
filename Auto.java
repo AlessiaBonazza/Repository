@@ -18,6 +18,8 @@ public static void main(String[] args) {
 
 
     Auto macchina1 = new Auto(modello, colore, anno);
+    Auto macchina2 = new Auto();
+    Auto macchina3 = new Auto(nome,anno);
 
         // Stampare le informazioni dell'auto
         System.out.println("Auto inserita:");

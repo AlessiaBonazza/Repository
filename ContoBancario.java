@@ -79,13 +79,7 @@ class Banca {
         for (ContoBancario conto : contoCorrente) {
             System.out.println("Titolare: " + conto.getTitolare() + ", Saldo: " + conto.getSaldo());
         }
-    }
-    public void contoBancario(String titolare, double saldo) {
-        
-    }
-    public void contoRisparmio(String titolare, double saldo, double tassoInteresse) {
-       
-    }
+
     
 
 }
@@ -97,8 +91,6 @@ class Banca2 {
         ContoBancario contoBancario = new ContoBancario();
         ContoRisparmio contoRisparmio = new ContoRisparmio();
 
-        banca.contoBancario("sara", 234567);
-        banca.contoRisparmio("marco", 5554322, 0.5);
 
         Scanner scanner = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
@@ -146,6 +138,7 @@ class Banca2 {
         scanner.close();
         scanner2.close();
     }
-}
+}}
+
 
 
